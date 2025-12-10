@@ -1,45 +1,4 @@
-.maincontent {
-  background-color: yellow;
-}
-.maincontent p {
-  color: red;
-}
-/* ul > li {
-  background-color: rgb(56, 127, 189);
-} */
-.maincontent + p {
-  color: rgb(48, 44, 236);
-}
-.maincontent ~ p {
-  background-color: blueviolet;
-}
-#hoverbtn:hover {
-  background-color: red;
-  color: white;
-}
-#activebtn:active {
-  background-color: blue;
-  color: white;
-}
-#focusinput:focus {
-  background-color: #b3afaf;
-  border: 1px solid rgb(108, 108, 109);
-  font-size: 14px;
-  color: #fff;
-  outline: none;
-  border-radius: 10px;
-}
-a:visited {
-  text-decoration: none;
-  /* color: black; */
-}
-/* #visitedid li:first-child {
-  background-color: red;
-}
-#visitedid li:last-child {
-  background-color: rgb(187, 129, 129);
-} */
-#visitedid li:nth-child(even* {
+* {
   /* background-color: green; */
 }
 /* #heading2 {
@@ -129,7 +88,4 @@ a:visited {
   font-size: 8px;
   font-style: italic;
   color: green;
-}
-) {
-  background-color: rgb(216, 83, 83);
 }
